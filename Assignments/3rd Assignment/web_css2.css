@@ -1,0 +1,82 @@
+body{
+	width:900px;
+	margin: auto;
+	background-image: url("http://www2.psd100.com/wp-content/uploads/2013/08/Elegant-green-background20130813.jpg")
+
+}
+header{
+	width:900px;
+	margin: auto;
+	height: 60px;
+	background-color: #009933;
+	color:white;
+	border:2px solid black;
+	padding: 20px;
+
+
+	font-size: 3em;
+	font-style:;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.footer{
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+	display: inline;
+
+}
+li.footer{
+
+	display: inline;
+	
+
+}
+a{
+display: block;
+width:80px;
+text-decoration: none;
+text-align: center;
+
+
+
+
+
+}
+section{
+	width:900px;
+	margin: auto;
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+column-gap:20px;
+}
+p{
+	display:block;
+	background-color:#DDEAF0;
+	font-size: 16px;
+	border:2px solid black;
+	margin-top: 10px 10px 10px 10px;
+	padding: 10px; 
+}
+h1{color:#000099;
+	font-size: 26px;
+	text-align: center;
+	
+}
+footer{
+	width: 900px;
+	height: 40px;
+	margin: auto;
+	border: 2px;
+}
+.footer{
+	color:white;
+	background-color: transparent;
+}
