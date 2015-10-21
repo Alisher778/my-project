@@ -1,51 +1,43 @@
 body{
-	font-family: 'Fontin', sans-serif;
-	color:black;
-	max-width: 100%;
+	width: 65%;
+	margin: auto;
+	min-width: 65%;
 
 }
 header{
-	width: 100%;
+	width: 87%;
 	margin: 0px;
 	height: 200px;
-	background-color: #eeeeee;
+	border-bottom: 7px outset #00cc00;
 }
 header img{
 	position: relative;
-	top:5px;
-	right:350px;
+	top:25px;
 
 }
 
 h3{
 	position: relative;
-	left:150px;
+	left:450px;
 	clear:both;
-	font-size: 16px;
-
 
 }
 
 /*nav menue//////////////////////////////////////*/
-div{
-	width: 100%;
-	text-align: center;
-	display: block;
-}
 ul.navmenue li{
 	list-style-type: none;
 	display: inline-block;
-	clear: both;
-	background-color: grey;
+	clear: left;
+	background-color: #CCFF33;
 	line-height: 25px;
-	padding: 2px;
+	padding: 0px;
 	
 	position: relative;
-	bottom: 55px;
+	bottom: 62px;
 }
 ul.navmenue a{
 	display: block;
-	width: 150px;
+	width: 170px;
 	height: 30px;
 	text-align: center;	
 	text-decoration: none;
@@ -54,20 +46,16 @@ ul.navmenue a{
 
 /* section /////////////////////////////////////////////*/
 
-div.container{
-	width: 100%;
-	margin: auto;
-}
+
 section p#sec{
 	font-family: Fertigo regular;
 	font-size: 18px;
-	width:900px;
-	margin: auto;
+	width:78%;
+	margin: 7px 5px 15px 0px;
 	background-color: #E6E6FA;
 	padding: 25px;
 	text-align: center;
 	clear: both;
-
 
 }
 
@@ -77,34 +65,27 @@ div.article img{
 	border-bottom: 4px solid #00CC00;
 }
 div.article div{
-	width:950px;
-	margin: auto;
-}
-
-div.article div{
 	display: block;
 	width: 333px;
 	height: 300px;
-	margin: 10px 10px 15px 0px;
+	margin: 7px 10px 15px 0px;
 	padding: 0px;
 	text-align: center;
 	background-color: #1E90FF;
-	float: left;
-	position: relative;
-	left:375px;
-
 }
-
-
+div.article div{
+	float:left;
+}
 
 div#footer{
 	display: inline-block;
 	background-color: ;
-	width:100%;
+	width: 85%;
 	height: 200px;
 	text-align: center;
 	position: relative;
 	top:150px;
+	border-top: 7px outset #00cc00;
 	
 }
 
@@ -126,7 +107,12 @@ div#donate h4{
 	position: relative;
 	left: 875px;
 	background-color: #FF0000;
+
+}
+div#donate a{
 	color: white;
+	text-decoration: none;
+	line-height: 25px;
 }
 div#fl img{
 	position: relative;
