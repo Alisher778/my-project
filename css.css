@@ -1,0 +1,147 @@
+body{
+	width: 900px;
+	margin: auto;
+	max-width: 95%;
+	padding: 0px;
+	
+}
+
+header{
+	width: 900px;
+	margin: 0px;
+	height: 200px;
+	background-color: #eeeeee ;
+	clear: both;
+
+}
+header img{
+	position: relative;
+	top:25px;
+	clear: both;
+
+}
+
+h3{
+	position: relative;
+	left:290px;
+	clear:both;
+
+}
+
+/*nav menue//////////////////////////////////////*/
+
+ul.navmenue li{
+	list-style-type: none;
+	display: inline-block;
+	clear: both;
+	background-color: #00FF00;
+	line-height: 25px;
+	padding: 2px;	
+	position: relative;
+	bottom: 55px;
+
+}
+ul.navmenue li a{
+	display: block;
+	float: left;
+	width: 136px;
+	height: 30px;
+	text-align: center;	
+	text-decoration: none;
+	
+}
+
+/* section /////////////////////////////////////////////*/
+
+
+section p#sec{
+	font-family: Fertigo regular;
+	font-size: 18px;
+	width:864px;
+	margin: 7px 5px 15px 0px;
+	background-color: #6CB5FF;
+	padding: 25px;
+	text-align: center;
+	clear: both;
+
+}
+
+/* articles with pictures */
+
+div.article img{
+	border-bottom: 4px solid #00CC00;
+}
+div.article div{
+	display: block;
+	width: 288px;
+	height: 300px;
+	margin: 5px;
+	padding: 0px;
+	text-align: center;
+	background-color: #6CB5FF;
+}
+div.article div{
+	float:left;
+}
+
+div#footer{
+	display: inline-block;
+	background-color: ;
+	width: 900px;
+	height: 200px;
+	text-align: center;
+	position: relative;
+	top:150px;
+	background-color: #eeeeee;
+	
+}
+
+div#con p{
+	display: inline-block;
+	margin: auto 10px;
+	position: relative;
+	top:120px;
+}
+div#donate h4{
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	width: 120px;
+	height: 25px;
+	padding: 10px;
+	margin: 2px;
+	height: 25px;
+	position: relative;
+	left: 740px;
+	background-color: #FF0000;
+	color: white;
+
+}
+div#donate a{
+	text-decoration: none;
+	color: white;
+	line-height: 25px;
+}
+div#fl img{
+	position: relative;
+	top:-40px;
+	left: 50px;
+	
+	
+	
+}
+div#info{
+	display: block;
+	width:450px;
+	height: 30px;
+	font-size: 12px;
+	position: relative;
+	left:200px;
+	bottom:130px;
+}
+div#copyright{
+	font-size: 10px;
+	position: relative;
+	left: 390px;
+	bottom:30px;
+}
