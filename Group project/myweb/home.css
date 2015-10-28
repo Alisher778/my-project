@@ -1,0 +1,124 @@
+x`html{
+
+
+
+}
+
+body{
+	background:url("image/home.3.jpg") no-repeat center center fixed;
+	background-position: 100px auto;
+	background-size: cover;
+	max-width: 100%;
+	width: 100%;
+	font-family: arial sans-serif;
+	margin: auto;
+	text-align: center;
+}
+#home{
+	
+}
+
+
+
+
+#menue a{
+	text-decoration: none;
+	color: white;
+	border: 4px solid green;
+	padding: 3px ;
+	display: block;
+	width: 120px;
+	text-align: center;
+
+}
+
+
+#menue{
+	
+	padding: 2px;
+	width: 960px;
+	height: 30px;
+	display: block;
+	max-width: 100%;
+	min-width: 100%;
+	text-align: center;
+	margin: auto;
+
+}
+button{
+	
+	background-color: red;
+	color: white;
+	width: 90px;
+	height: 40px;
+	text-decoration: none;
+}
+
+
+ul li{
+
+	list-style-type: none;
+	line-height: auto;
+	display: inline-block;
+	clear: left;	
+	margin: auto 0px 0px 0px;	
+	text-align: center;
+	text-transform: uppercase;
+
+ 
+}
+
+header{
+	background-color: black;
+	height: 120px;
+	width: auto;
+	clear: both;
+
+}
+
+#search{
+	position: relative;
+	left: 30%;
+
+}
+header img{
+	float:left;
+	position: relative;
+	left: 200px;
+	text-align: center;
+}
+
+#contanier{
+	width: 960px;	
+	margin: 50px auto;
+	text-align: center;
+	
+}
+#contanier  h1{
+	font: 52px/62px OpenSansLight,Helvetica,Arial,sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+
+}
+#contanier p{
+	font-size: 27px;
+	color: #FF6600;
+	background-color: white;
+	opacity: 0.8;
+}
+#donate a{
+	text-decoration: none;
+	border: 2px solid red;
+	
+
+
+}
+footer{
+	display: block;
+}
+#address{
+	position: relative;
+	left: 0	%;
+	top: 30%;
+}

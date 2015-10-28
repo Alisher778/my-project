@@ -1,13 +1,16 @@
 body{
-	width: 900px;
+	/*width: 1200px;*/
 	margin: auto;
-	max-width: 95%;
+	max-width: 100%;
 	padding: 0px;
+	margin: auto;
+	text-align: center;
 	
 }
 
-header{
-	width: 900px;
+#callout {
+	max-width: 100%;
+	width: 100%;
 	margin: 0px;
 	height: 200px;
 	background-color: #eeeeee ;
@@ -30,6 +33,13 @@ h3{
 
 /*nav menue//////////////////////////////////////*/
 
+#container {
+	background-color: pink;
+	clear: both;
+	position: absolute;
+	max-width: 100%;
+	width: 70%;
+}
 ul.navmenue li{
 	list-style-type: none;
 	display: inline-block;
