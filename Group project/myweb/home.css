@@ -1,85 +1,77 @@
-x`html{
-
-
-
-}
-
 body{
-	background:url("image/home.3.jpg") no-repeat center center fixed;
-	background-position: 100px auto;
-	background-size: cover;
-	max-width: 100%;
-	width: 100%;
+	width: 90%;
+	height: 100%;
 	font-family: arial sans-serif;
-	margin: auto;
+	margin: 0 auto;
+	background-color: lightyellow;
+	border: 1px solid;
+}
+
+#image img{
+	height: 400px;
+	margin-top: 20px;
+	margin: 0 auto;
+}
+#menu {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+}
+#menu ul li{
+	margin: 0 auto;
+	display: inline;
 	text-align: center;
-}
-#home{
-	
-}
-
-
-
-
-#menue a{
-	text-decoration: none;
-	color: white;
-	border: 4px solid green;
-	padding: 3px ;
-	display: block;
-	width: 120px;
-	text-align: center;
-
-}
-
-
-#menue{
-	
-	padding: 2px;
-	width: 960px;
-	height: 30px;
-	display: block;
-	max-width: 100%;
-	min-width: 100%;
-	text-align: center;
-	margin: auto;
-
-}
-button{
-	
-	background-color: red;
-	color: white;
-	width: 90px;
-	height: 40px;
-	text-decoration: none;
-}
-
-
-ul li{
-
-	list-style-type: none;
-	line-height: auto;
-	display: inline-block;
-	clear: left;	
-	margin: auto 0px 0px 0px;	
-	text-align: center;
+	padding: 10px;
+	margin-left: 5%;
 	text-transform: uppercase;
+	list-style-type: none;
+	border: 1px solid blue;
+	background-color: lightyellow;
+}
+#menu ul li:hover {
+	background-color: blue;
+}
+#menu ul li a {
+	color: orange;
+}
 
- 
+a{
+	text-decoration: none;
+}
+#container2 {
+	background-color: #BBF144;
+}
+#contanier{
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+}
+#container img {
+	width: 300px;
 }
 
 header{
-	background-color: black;
-	height: 120px;
+	background-color: darkorange;
+	height: 100px;
 	width: auto;
 	clear: both;
 
 }
 
 #search{
-	position: relative;
-	left: 30%;
-
+	float: right;
+	line-height: 25px;
+	}
+button {
+	float: right;
+	background-color: red;
+	color: white;
+}
+button a{
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	color: white;
 }
 header img{
 	float:left;
@@ -88,37 +80,14 @@ header img{
 	text-align: center;
 }
 
-#contanier{
-	width: 960px;	
-	margin: 50px auto;
-	text-align: center;
-	
-}
-#contanier  h1{
-	font: 52px/62px OpenSansLight,Helvetica,Arial,sans-serif;
-    margin-bottom: 15px;
-    text-align: center;
-    color: white;
 
-}
-#contanier p{
-	font-size: 27px;
-	color: #FF6600;
-	background-color: white;
-	opacity: 0.8;
-}
-#donate a{
-	text-decoration: none;
-	border: 2px solid red;
-	
-
-
-}
 footer{
-	display: block;
+	width: 100%;
+	height: 120px;
+	background-color: darkorange;
+	clear: both;
 }
-#address{
-	position: relative;
-	left: 0	%;
-	top: 30%;
+
+#social{
+	float: right;
 }
