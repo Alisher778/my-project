@@ -332,7 +332,11 @@
    	 #footer2{
    	 	display: none;
    	 }
-
+	header a:hover{
+   	width: 100%;
+   	padding: 10px;
+   	font-size: 1.2em;
+   }
 
 
    	 
