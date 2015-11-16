@@ -1,0 +1,94 @@
+body{
+	width: 100%;
+	background-color: #eee;
+	margin: 0 auto;
+}
+#header-wrapper{
+	background-color: #383838;
+	width: 100%;
+}
+header{
+	width: 100%;
+	max-width: 980px;
+	background-color: #383838;
+	margin: 0 auto;
+	height: 100px;
+	
+}
+#logo{
+	background: url("image/logo.jpg");
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+input{
+	position: relative;
+	top: 0;
+	right: 0;
+	float: right;
+	margin: 5px;
+	padding: 2px;
+	line-height: 21px;
+	border-radius: 5px;
+}
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	margin: 55px 17px;
+	padding: 5px;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+article a{
+	text-decoration: none;
+	color: #1A90CD;
+}
+a:hover{
+	padding: 10px;
+	background-color: white;
+}
+section{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 13px;
+	background-color: #FBF9F9;
+}
+article{
+	width: 100%;
+	max-width: 940px;
+	
+	margin: 5px;
+	padding: 10px;
+}
+.image{
+	width: 100%;
+	max-width: 300px;
+	height: 260px;
+	float: left;
+	margin-right: 2%;
+}
+.image2{
+	
+	margin-right: 2%;
+}
+
+article h1 p{
+	
+	padding: 2%;
+	text-align: justify;
+	font-size: 150%;
+}
+
+footer{
+	width: 100%;
+	background-color: #383838;
+	height: 50px;
+	text-align: center;
+	padding: 3px;
+	color: white;
+}
