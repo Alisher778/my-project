@@ -1,0 +1,27 @@
+body{
+	background-color: #eee;
+	width: 100%;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style-type: none;
+}
+#header-wrapper{
+	width: 100%;
+	background-color: #353535;
+	height: 120px;
+}
+header{
+	width: 100%;
+	max-width: 1024px;
+	height: 120px;
+	background-color: transparent;
+	margin: 0 auto;
+}
+#logo{
+	float: left;
+	background: url("image/logo.jpg");
+}
